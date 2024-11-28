@@ -1,0 +1,6 @@
+[submodule "siman-marvelpedia-client"]
+	path = siman-marvelpedia-client
+	url = git@github.com:DouglasHdezT/marvelpedia-client.git
+[submodule "siman-marvelpedia-ws"]
+	path = siman-marvelpedia-ws
+	url = git@github.com:DouglasHdezT/marvelpedia-webservice.git

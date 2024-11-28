@@ -1,0 +1,26 @@
+meta {
+  name: Character - By Id
+  type: http
+  seq: 7
+}
+
+get {
+  url: http://localhost:8080/marvelpedia/api/data/characters/by-id/1011114
+  body: json
+  auth: bearer
+}
+
+headers {
+  : 
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkZXVzQHNpbWFuLmNvbSIsImlhdCI6MTczMjc3Nzg0MywiZXhwIjoxNzMyODY0MjQzfQ.WMpfH6uOHln_bsVJzs8UDPqcX8asf-SmfCcCTIsiiwY
+}
+
+body:json {
+  {
+    "email": "deus@siman.com",
+    "password": "12345678Aa!"
+  }
+}
